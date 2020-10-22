@@ -1,0 +1,102 @@
+{
+	"itemName": "knightfall_nanitegrenade_thrown",
+	"price": 300,
+	"rarity": "Rare",
+	"category": "^#5be1eb;Medical Grenade^reset;",
+	"inventoryIcon": "knightfall_nanitegrenade_thrown.png",
+	"image": "knightfall_nanitegrenade_thrown.png",
+	"shortdescription": "Nanite Grenade",
+	"description": "A basic medical grenade used by Knightfall medics for repairing damaged tissue.",
+
+	"ammoUsage": 1,
+
+	"edgeTrigger": true,
+	"windupTime" : 0.30,
+	"cooldown" : 1.75,
+
+	"projectileType": "knightfall_nanitegrenade",
+	"projectileConfig": {
+		"speed": 35.5,
+		"power": 40,
+		"periodicActions": [
+			{
+			"time" : 0,
+			"repeat" : false,
+			"action" : "sound",
+			"options" : [ "/sfx/projectiles/throw_item.ogg" ]
+			},
+			{
+				"action": "sound",
+				"options": ["/sfx/melee/rocketspear_loop_poison.ogg"],
+				"time": 0.5,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "healingnadeprojectile",
+				"time": 0.5,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 0.5,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 1,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 1.5,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 2,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 2.5,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 3,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 3.5,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 4,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 4.5,
+				"repeat": false
+			}, 
+			{
+				"action": "projectile",
+				"type": "damagenadeprojectile",
+				"time": 5,
+				"repeat": false
+			}
+		]
+	}
+}
