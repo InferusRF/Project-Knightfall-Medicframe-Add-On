@@ -7,7 +7,7 @@
   "description" : "A lightweight axe issued to Medics.",
   "shortdescription" : "Medic's Axe",
   "tooltipKind" : "sword",
-  "category" : "broadsword",
+  "category" : "^#5be1eb;Axe^reset;",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","broadsword"],
 

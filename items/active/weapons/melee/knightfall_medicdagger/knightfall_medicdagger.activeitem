@@ -7,7 +7,7 @@
   "description" : "A lightweight dagger issued to Medics.",
   "shortdescription" : "Medic's Dagger",
   "tooltipKind" : "sword",
-  "category" : "dagger",
+  "category" : "^#5be1eb;Dagger^reset;",
   "twoHanded" : false,
   "itemTags" : ["weapon","melee","dagger"],
 
