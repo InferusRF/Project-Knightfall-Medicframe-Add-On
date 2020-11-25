@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "^#36c6ff;Powered Chest Armor^reset;",
-  "description" : "A basic, white painted chest piece with decent protection and environmental protection. For use by Medics.",
+  "description" : "A basic white painted chest piece with decent armor and environmental protection. For use by Medics.",
   "shortdescription" : "Medicframe Chestpiece",
   "tooltipKind" : "armor",
   
