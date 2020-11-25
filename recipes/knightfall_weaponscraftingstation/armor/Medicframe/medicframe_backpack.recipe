@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "knightfall_ultraniumingot", "count" : 2 },
+	{ "item" : "medkit", "count" : 1 },
+	{ "item" : "whitedye", "count" : 1 },
+	{ "item" : "reddye", "count" : 1 }
+  ],
+  "output" : { "item" : "medicframe_backpack", "count" : 1 },
+  "duration" : 0,
+  "groups" : [ "knightfall_weaponscraftingstation", "knightfall_backpieces", "armours", "all" ]
+}
